@@ -67,8 +67,6 @@ function getSensorStatus()
   });
 }
 
-
-///DA COMPLETARE///////
 function getLightStatus()
 {
   console.log("Connecting to hueHub IP:" + CONFIG.HUEHUB_HOST + "PORT:" + CONFIG.HUEHUB_PORT);
